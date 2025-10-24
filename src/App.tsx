@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/event-form" element={<EventForm />} />
+        <Route path="/event" element={<EventForm />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
